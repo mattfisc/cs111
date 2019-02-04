@@ -10,6 +10,13 @@ package mainrec;
  */
 public class Square extends Rectangle{
     
+    // Default Constructor
+    public Square(){
+        super(1,1);
+        name = "Square";
+    }
+    
+    // Explicit Constructor
     public Square(double x){
         super(x,x);
         name = "Square";

@@ -14,7 +14,15 @@ public class Rectangle {
     protected double length;
     protected double width;
     
-    // Constructor
+    
+    // Default Constructor
+    public Rectangle(){
+        name = "Rectangle";
+        length = 1;
+        width = 2;
+    }
+    
+    // Explicit Constructor
     public Rectangle(double l, double w){
         name = "Rectangle";
         length = l;
@@ -58,5 +66,10 @@ public class Rectangle {
     // ------ parameter --------
     public double perimeter(){
         return length * 2 + width * 2;
+    }
+    
+    //------ toString ---------
+    public String toString(){
+        return "\n" + name + " :" + "\n\tLength : " + length + "\n\tWidth : " + width;
     }
 }
