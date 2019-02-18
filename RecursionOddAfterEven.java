@@ -1,6 +1,7 @@
 /*
  * By:     Matthew Fischer
- * Date:   
+ * Program 4
+ * Date:   02/18/2019
  */
 package recursionevenafterodd;
 
